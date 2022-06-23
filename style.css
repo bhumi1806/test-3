@@ -1,0 +1,12 @@
+.item{
+    background-color: rgb(163, 161,161);
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 250px);
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 15px;
+}
